@@ -7,12 +7,12 @@ total = 0
 for i in range(0, len(numbers)):
     total = total + numbers[i]
 
-average = total / len(number)   # BUG 1: Wrong variable name
+average = total / len(numbers)  
 
-print("Total is: " + total)     # BUG 2: Can't add int to string
+print("Total is: ", total)     
 
-if average > 25
-    print("Above Average")      # BUG 3: Missing colon
+if average > 25:
+    print("Above Average") 
 
-else
-    print("Below Average")      # BUG 4: Missing colon
+else:
+    print("Below Average")     
